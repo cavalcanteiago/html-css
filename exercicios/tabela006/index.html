@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        caption{
+            background-color: rgba(0, 0, 0, 0.391);
+            color: white;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tabela completa</h1>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nome</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Mulheres</th>
+                <td>Dina Quadros</td>
+                <td>Até o ultimo Homem</td>
+                <td>A procura da felicidade</td>
+                <td>Titanic</td>
+            </tr>
+            <tr>
+                <td>Caila Dominic</td>
+                <td>The last of Us</td>
+                <td>Hankcok</td>
+                <td>X-men</td>
+            </tr>
+            <tr>
+                <td>Nany Cardoso</td>
+                <td>Musical</td>
+                <td>Branca de neve</td>
+                <td>Cinderela</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Homens</th>
+                <td>Iago Cavalcante</td>
+                <td>Pearl Harbor</td>
+                <td>O ultimo homem</td>
+                <td>Sorria</td>
+            </tr>
+            <tr>
+                <td>Caio Phillipe</td>
+                <td>Rei leão</td>
+                <td>Divertidamente</td>
+                <td>the last of us</td>
+            </tr>
+            <tr>
+                <td>Joao Henrique</td>
+                <td>Até o ultimo homem</td>
+                <td>Pearl Harbor</td>
+                <td>Alto da Compadecida</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
