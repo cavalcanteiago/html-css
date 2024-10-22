@@ -1,3 +1,3 @@
 # html-css
  Curso em video
-<a href="https://cavalcanteiago.github.io/html-css/exercicios/ex001/fundo001.html" > Executar o desafio 001
+<a href="http://127.0.0.1:5501/exercicios/mediaqueries000/mq002/index.html" > Executar o desafio 001
